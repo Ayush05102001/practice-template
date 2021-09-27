@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 2em;
+}
+/* #logo{
+    width: 20%;
+    height: 20%;
+} */
+.intro {
+    margin-top:80px;
+    /* height: 600px; */
+}
+#intropara{
+    background-color: #16e0bd;
+}
+.imagea {
+    height: 400px;
+    width: 400px;
+    float: left;
+    position: relative;
+    left: 300px;
+    z-index: 2;
+    box-shadow:  0px 5px 25px 0px rgba(0,0,0,.25) ;
+    transition: transform 300ms;
+}
+.imagea:hover {
+    transform: scale(1.1);
+}
+.introsec {
+    width: 900px;
+    float: left;
+    text-align: center;
+}
+#introheading {
+    padding: 120px 0 0 0px;
+    font-weight: 150;
+}
+.introsecp {
+    margin-top: 10px;
+    width: 1050px;
+    height: 70px;
+    float: left;
+    font-size: 2rem;
+    text-align: right;
+    padding: 5px 20px 0 0;
+    position: relative;
+    left: -200px;
+}
+.addeddiv1 {
+    width: 100%;
+    clear: both;
+}                       /*service*/
+.myservices {
+    text-align: center;
+    background: url("bgc.jpg") no-repeat center;
+}
+.whatidoclass {
+    margin: auto;
+    margin-top: 45px;
+    width: 700px;
+    color: #16e0bd;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    /* border: 2px solid darkgoldenrod; */
+}
+.service {
+    width: 90%;
+    margin: auto;
+}
+.service h3 {
+    font-size: 2rem;
+}
+.service p {
+    color: #16e0bd;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.myservicelink {
+    padding: 15px 55px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color:#16e0bd;
+    color: black;
+    box-shadow:  10px 0px 20px 0 black;
+}
+.myservicelink:hover {
+    background-color: white;
+    color: #16e0bd;
+}
+.myservicelink:active {
+    background-color: black;
+    color: whitesmoke;
+}
+.about{
+    height: 700px;
+    margin: 20px 0;
+}
+.aboutmeimage {
+    float: right;
+    position: relative;
+    right: 300px;
+    z-index: 2;
+    transition: transform 300ms;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,.25);
+}
+.aboutmeimage:hover {
+    transform: rotate(15deg);
+}
+.aboutme {
+    width: 650px;
+    /* border:2px solid darkgoldenrod; */
+    font-size: 4rem;
+    float: right;
+    padding-top: 80px;
+}
+#aboutpara {
+    width: 950px;
+    height: 60px;
+    font-size: 1.75rem;
+    background-color: #16e0bd;
+    float: right;
+    position: relative;
+    right: -180px;
+}
+.aboutbody  {
+    padding:10px 0 0 100px;
+    clear: both;
+    font-size: 1.5rem;
+    font: bold;
+}       /*work*/
+.mywork {
+    /* border: 2px solid darkgoldenrod; */
+    background-color: #303030;
+}
+.mywork > h2 {
+    /* border:2px solid darkgoldenrod; */
+    color: white;
+    padding: 20px 40px 0 40px;
+    text-align: center;
+}
+.mywork > P {
+    color: #16e0bd;
+    text-align: center;
+}
+.myworkimage {
+    margin: 20px 385px;
+    box-shadow: 10px 10px 25px 0 rgba(0,0,0,.25);
+    transition: all 2s linear;
+}
+.myworkimage:hover {
+    box-shadow: 10px 10px 25px 0  #16e0bd;
+    border-radius: 15px ;
+    transform: rotateX(360deg);
+}
+footer {
+    text-align: center;
+    background-color: black;
+}
+footer > a {
+    text-decoration: none;
+    color: white;
+}
+footer > a:hover {
+    color: #16e0bd;
+}
+/*------NAVBAR------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+.navli, .navli>a, .buttona, .buttonb {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+}
+.navul {
+    list-style: none;
+}
+.navli {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 1.45rem;
+    transition: .3s;
+}
+.navli :hover {
+    color: #0088a9;
+}
+.buttonb {
+    background-color: #16e0bd;
+    color: #edf0f1;
+    border: none;
+    border-radius: 30px;
+    padding: 0px 15px;
+    box-shadow: 10px 15px 25px 0 black;
+}
+.buttonb:hover {
+    box-shadow: 0px 0px 20px 0 rgba(255,255,255,0.5);
+    background-color: #edf0f1;
+    color: #16e0bd;
+}
+.logoimg {
+    width: 175px;
+    height: 95px;
+}
+.logoimg:hover {
+    box-shadow: 0px 0px 25px 0 rgba(255,255,255,.25);
+}
